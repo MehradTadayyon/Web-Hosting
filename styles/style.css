@@ -1,0 +1,457 @@
+/* frontend dev
+ui
+user interface
+ux
+/* application */
+
+/* & 
+
+backend dev 
+devops */
+
+
+/* فول استک */
+/* 10
+45
+55 */ 
+
+@font-face{
+    font-family: "nunito";
+    src: url("./../fonts/Nunito-Regular.ttf");
+}
+
+
+
+body{
+    margin: 0;
+    font-family: "nunito";
+}
+/* --------Start heading---------- */
+
+.heading{
+    background-image: url("./../images/headerBg.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-position-x,background-position-y */
+}
+/* --------------End heading--------------- */
+
+/* -------------Start navbar------------- */
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px 30px 0px 30px;
+    padding: 0px 0px 0px 0px;
+    height: 100px;
+    
+}
+
+.navbar_left{
+    width: 50%;
+    margin: 0;
+
+}
+
+.navbar_right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    /* align-items: center; */
+    margin: 0;
+}
+
+.navbar_left_logo{
+    width: 16%;
+}
+
+.navbar_right_btn{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90px;
+    height: 45px;
+    border-radius: 10px;
+    margin-top: 35px;
+    border: none;
+    color: #96A2F2;
+    transform: scale(1);
+    transition: all 0.3s ease;
+}
+
+.navbar_right_btn:hover{
+    background-color: #96A2F2;
+    color: white;
+    transform: scale(1.15);
+}
+
+.navbar_right_btn_p{
+    font-weight: 700;
+}
+
+.navbar_right_p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20;
+    font-weight: 100;
+    color: aliceblue;
+    margin-top: 50px;
+}
+
+.navbar_right_p_purple{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 15%;
+    font-size: 20;
+    font-weight: 100;
+    color: white;
+    background-color: #6e82e4;
+    text-align: center;
+    margin: 0 0 20px 0;
+    border-radius: 0 0 4px 4px;
+}
+/* -------------------End navbar------------------ */
+
+/* --------------------Start header----------------- */
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 50px 0 0 0;
+}
+
+.header_left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.header_left_up{
+    margin: 0 0 0 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    height: 50%;
+}
+
+.header_left_down{
+    margin: 0 0 0 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+}
+
+.header_h2{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    color: aliceblue;
+
+}
+
+.header_p{
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    color: aliceblue;
+}
+
+.header_input{
+    height: 50px;
+    width: 290px;
+    background-color: #394170;
+    color: white;
+    border-radius: 3px 0 0 3px;
+    border: none;
+    padding: 0 50px 0 20px;
+    font-size: 18px;
+    outline: none;
+}
+
+.header_input::placeholder{
+    color: white;
+}
+
+.header_select{
+    height: 50px;
+    width: 60px;
+    background-color: #394170;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    border: 0 10px 3px 0;
+    margin-left: 4px;
+    font-size: 18px;
+}
+
+.header_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 50px;
+    margin: 30px;
+    color: white;
+    background-color: #6e82e4;
+    border-radius: 4px;
+    border: none;
+    transition: all 0.3s ease;
+}
+.header_btn:hover{
+    background-color: #5c6cbb;
+}
+
+.header_btn_p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.header_right{
+    width: 50%;
+}
+
+.header_right_img{
+    margin: 0;
+    width: 100%;
+}
+/* -------------------End header--------------------- */
+
+/* -------------------Start join----------------------- */
+
+.join{
+    margin-top: 70px;
+    
+}
+.join_up{
+    text-align: center;
+}
+
+.join_up_title{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.join_up_p{
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.join_bottom{
+    display: flex;
+}
+
+.join_bottom_right{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.join_bottom_left{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 50%;
+}
+
+.join_bottom_right_img{
+    width: 85%;
+}
+
+.join_bottom_card{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 15px;
+}
+
+.join_bottom_card_left img{
+    width: 80%;
+}
+
+.join_bottom_card_right_p{
+    margin: 0;
+}
+/* ---------------------End join----------------- */
+
+/* ---------------------Start start-------------------- */
+.start{
+    background-color: #F8F5FE;
+}
+
+.start_up{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.start_up_title{
+    font-size: 24px;
+}
+
+.start_up_p{
+    font-size: 14px;
+}
+
+.start_down{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.start_down_left{
+    padding: 20px 10px;
+    background-color: #99A4F8;
+    width: 40%;
+    border-radius: 5px;
+}
+
+.start_down_1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.start_down_1_rocket{
+    background-color: #464C7F;
+    width: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    height: 80px;
+    margin-top: 20px;
+}
+
+.start_down_left_1{
+    margin-top: 10px;
+}
+
+.start_down_left_2{
+    margin-top: 50px;
+}
+
+.start_down_left_2 p, .start_down_left_2 h3{
+    color: #ffffff;
+}
+
+.start_down_3{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.start_down_left_button{
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    color: #99A4F8;
+    transform: scale(1);
+    transition: all 0.3s ease;
+}
+
+.start_down_left_button:hover{
+    background-color: #464C7F;
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+.start_down_left_button_p{
+    font-family: 'nunito';
+    font-weight: 600;
+}
+
+.start_down_right{
+    padding: 20px 10px;
+    background-color: #464C7F;
+    width: 40%;
+    border-radius: 5px;
+}
+
+.start_down_1_table{
+    background-color: #99A4F8;
+    width: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    height: 80px;
+}
+
+.start_down_right_2 p, .start_down_right_2 h3{
+    color: #ffffff;
+}
+
+.start_down_right_button{
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    color: #99A4F8;
+    transform:scale(1);
+    transition: all 0.3s ease;
+}
+
+.start_down_right_button:hover{
+    background-color: #99A4F8;
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+.start_down_right_button_p{
+    font-family: 'nunito';
+    font-weight: 600;
+}
+/* -------------------End start--------------- */
+
+/* ----------------------Start plan---------------- */
+
+.plan_up{
+    text-align: center;
+}
+.plan_up_h2{
+    font-size: 28px;
+}
+
+.plan_up_p{
+    font-size: 18px;
+}
+
+.plan_down{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.plan_down_option{
+    width: 15%;
+    padding: 50px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #EEE;
+}
+
+.plan_down_option_up{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 240px;
+    border-bottom: 1px solid white;
+}
+
+.plan_down_option_up_span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
