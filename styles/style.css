@@ -74,11 +74,10 @@ body{
 }
 
 .navbar_right_btn_p{
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .navbar_right_p{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20;
     font-weight: 100;
     color: aliceblue;
@@ -89,7 +88,6 @@ body{
     display: flex;
     align-items: end;
     justify-content: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 15%;
     font-size: 20;
     font-weight: 100;
