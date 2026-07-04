@@ -1,20 +1,3 @@
-/* frontend dev
-ui
-user interface
-ux
-/* application */
-
-/* & 
-
-backend dev 
-devops */
-
-
-/* فول استک */
-/* 10
-45
-55 */ 
-
 @font-face{
     font-family: "nunito";
     src: url("./../fonts/Nunito-Regular.ttf");
@@ -184,7 +167,7 @@ body{
 
 .header_select{
     height: 50px;
-    width: 60px;
+    width: 80px;
     background-color: #394170;
     color: white;
     border-radius: 3px;
