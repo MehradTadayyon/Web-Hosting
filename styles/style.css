@@ -394,6 +394,9 @@ body{
 
 /* ----------------------Start plan---------------- */
 
+.plan{
+    padding-bottom: 100px;
+}
 .plan_up{
     text-align: center;
 }
@@ -417,19 +420,72 @@ body{
     padding: 50px 20px 20px 20px;
     display: flex;
     flex-direction: column;
-    background-color: #EEE;
+    height: 280px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.plan_down_option:hover{
+    height: 360px;
+    border-top: 5px solid #93A5FF;
 }
 
 .plan_down_option_up{
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 240px;
     border-bottom: 1px solid white;
+    padding-bottom: 20px;
+}
+
+.plan_down_option_up_h3{
+    font-weight: 600;
+    font-size: 18px;
 }
 
 .plan_down_option_up_span{
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-weight: 100;
+    color: #575759;
+}
+
+.plan_down_option_up_span_up, .plan_down_option_up_span_up{
+    font-size: 16px;
+}
+
+.plan_down_option_down{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.plan_down_option_down_p{
+    font-size: 16px;
+}
+
+.plan_down_option_down_price_span1{
+    font-size: 20px;
+}
+
+.plan_down_option_down_price_span2{
+    font-size: 16px;
+}
+
+.plan_down_option_down_button{
+    background-color: #F7F8FF;
+    color: #93A5FF;
+    padding: 0 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+
+}
+
+.plan_down_option_down_button_p{
+    font-size: 16px;
 }
