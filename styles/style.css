@@ -3,7 +3,10 @@
     src: url("./../fonts/Nunito-Regular.ttf");
 }
 
-
+@font-face{
+    font-family: "nunito-bold";
+    src: url("./../fonts/Nunito-Bold.ttf");
+}
 
 body{
     margin: 0;
@@ -424,7 +427,7 @@ body{
     overflow: hidden;
     transition: all 0.3s ease;
     border-radius: 5px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .plan_down_option:hover{
@@ -441,7 +444,7 @@ body{
 }
 
 .plan_down_option_up_h3{
-    font-weight: 600;
+    font-family: "nunito-bold";
     font-size: 18px;
 }
 
