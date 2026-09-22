@@ -492,6 +492,8 @@ body{
 .plan_down_option_down_button_p{
     font-size: 16px;
 }
+/* --------------End Plan--------------- */
+/* --------------Start Comment------------- */
 
 .comment_section{
     background-color: #F7F8FF;
@@ -607,4 +609,60 @@ body{
     position: absolute;
     bottom: -30px;
     left: 0px;
+}
+/* ---------------End Comment------------- */
+/* ---------------Start Clients------------ */
+
+.clients{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.clients_up{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.clients_up_h3{
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.clients_up_p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.clients_mid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.clients_mid_img{
+    width: 8%;
+}
+
+.clients_down{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.clients_down_button{
+    padding: 10px 30px;
+    background-color: #93A5FF;
+    color: white;
+    border: none;
+    border-radius: 7px;
+}
+
+.clients_down_button_span{
+    font-size: 15px;
+    font-weight: 400;
 }
